@@ -1,0 +1,21 @@
+{
+    "name": "dsh-plugin-voice-input",
+    "version": "1.0.0",
+    "description": "Voice input plugin for DeepSeek Harness via Web Speech API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": ["deepseek-harness", "cordis", "plugin"],
+    "author": "Vyacheslav Tsoy",
+    "license": "MIT",
+    "peerDependencies": {
+        "@cordisjs/core": "^1.0.0"
+    },
+    "devDependencies": {
+        "@cordisjs/core": "^1.0.0",
+        "typescript": "^5.0.0"
+    }
+}

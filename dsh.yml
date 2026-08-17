@@ -1,0 +1,3 @@
+plugins:
+  # Other plugins
+  dsh-plugin-voice-input: {}
